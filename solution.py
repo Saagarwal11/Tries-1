@@ -9,7 +9,6 @@ class Trie:
     def __init__(self):
         self.root = TrieNode()
    
-        
     def insert(self, word: str) -> None:
         curr = self.root
         for w in word:
